@@ -1,0 +1,6 @@
+<div class="class">
+    <h1 [ngStyle]="{'font-size': '3rem', 'color': 'red'}">Emitindo eventos</h1><br><br> 
+    <h1>O número é: {{ myNumber }}</h1>
+    <app-charge-number (changeNumber)="onChangerNumber()"></app-charge-number>
+
+</div>
